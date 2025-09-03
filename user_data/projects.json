@@ -7,6 +7,11 @@
                     "title":"Game Bot (Personal Project)",
                     "link":null,
                     "linkTool":null,
+                    "used_tools": [
+                        "Python",
+                        "Sockets",
+                        "Reinforcement Learning"
+                    ],
                     "descriptions": [
                         "Developed and maintained a bot that plays an online game via sockets.",
                         "Currently integrating reinforcement learning for better battle performance."
@@ -16,6 +21,11 @@
                     "title":"Gomoku",
                     "link":"https://github.com/sboof911/Gomoku",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Minimax",
+                        "Heuristic Scoring"
+                    ],
                     "descriptions": [
                         "Board game AI using Minimax with heuristic scoring."
                     ]
@@ -24,6 +34,12 @@
                     "title":"Understanding Customer",
                     "link":"https://github.com/sboof911/Understanding-customer",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "BERT",
+                        "Transformers",
+                        "Hugging Face"
+                    ],
                     "descriptions": [
                         "LLM-based intent prediction using a fine-tuned BERT model."
                     ]
@@ -32,6 +48,10 @@
                     "title":"Multilayer Perceptron",
                     "link":"https://github.com/sboof911/Multilayer-Perceptron",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Pandas"
+                    ],
                     "descriptions": [
                         "Built MLP from scratch to classify breast cancer diagnosis."
                     ]
@@ -40,6 +60,11 @@
                     "title":"Leaffliction",
                     "link":"https://github.com/sboof911/Leaffliction",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Keras",
+                        "TensorFlow"
+                    ],
                     "descriptions": [
                         "CNN (ResNet-18) for plant disease classification."
                     ]
@@ -48,6 +73,11 @@
                     "title":"Tweets",
                     "link":"https://github.com/sboof911/tweets",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "NLP",
+                        "Scikit-learn"
+                    ],
                     "descriptions": [
                         "Sentiment analysis with 18 preprocessing methods."
                     ]
@@ -56,6 +86,11 @@
                     "title":"Total Perspective Vortex",
                     "link":"https://github.com/sboof911/Total-perspective-vortex",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "MNE",
+                        "Scikit-learn"
+                    ],
                     "descriptions": [
                         "EEG-based classifier to detect motor activity."
                     ]
@@ -64,6 +99,10 @@
                     "title":"My Spotify",
                     "link":"https://github.com/sboof911/MySpotify",
                     "linkTool":"GitHub",
+                    "used_tools": [
+                        "Python",
+                        "PyArrow"
+                    ],
                     "descriptions": [
                         "Music recommendation system using PyArrow for large-scale processing."
                     ]
@@ -77,6 +116,11 @@
                     "title": "Webserv42",
                     "link": "https://github.com/sboof911/webserv42",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "C++",
+                        "Sockets",
+                        "Kqueue"
+                    ],
                     "descriptions": [
                         "HTTP server in C++ with sockets and kqueue."
                     ]
@@ -85,6 +129,10 @@
                     "title": "Minishell",
                     "link": "https://github.com/sboof911/minishell",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "C",
+                        "Unix"
+                    ],
                     "descriptions": [
                         "Unix shell from scratch in C with parsing and execution."
                     ]
@@ -93,6 +141,10 @@
                     "title": "FT Services",
                     "link": "https://github.com/sboof911/ft_services",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Docker",
+                        "Kubernetes"
+                    ],
                     "descriptions": [
                         "Cluster setup using Kubernetes and Docker."
                     ]
@@ -101,6 +153,12 @@
                     "title": "FT Transcendence",
                     "link": null,
                     "linkTool": null,
+                    "used_tools": [
+                        "React",
+                        "Nest.js",
+                        "PostgreSQL",
+                        "Docker"
+                    ],
                     "descriptions": [
                         "Online multiplayer ping pong game with chat, profiles, friends using React, Nest.js, PostgreSQL, and Docker."
                     ]
@@ -116,6 +174,11 @@
                     "title": "Bot de Jeu (Projet Personnel)",
                     "link": null,
                     "linkTool": null,
+                    "used_tools": [
+                        "Python",
+                        "Sockets",
+                        "Reinforcement Learning"
+                    ],
                     "descriptions": [
                         "Développé et maintenu un bot qui joue à un jeu en ligne via des sockets.",
                         "Intégration en cours de l'apprentissage par renforcement pour améliorer les performances en combat."
@@ -125,6 +188,11 @@
                     "title": "Gomoku",
                     "link": "https://github.com/sboof911/Gomoku",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Minimax",
+                        "Heuristic Scoring"
+                    ],
                     "descriptions": [
                         "IA pour jeu de plateau utilisant Minimax avec évaluation heuristique."
                     ]
@@ -133,6 +201,12 @@
                     "title": "Understanding Customer",
                     "link": "https://github.com/sboof911/Understanding-customer",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "BERT",
+                        "Transformers",
+                        "Hugging Face"
+                    ],
                     "descriptions": [
                         "Prédiction d'intention basée sur LLM en utilisant un modèle BERT fine-tuné."
                     ]
@@ -141,6 +215,10 @@
                     "title": "Multilayer Perceptron",
                     "link": "https://github.com/sboof911/Multilayer-Perceptron",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Pandas"
+                    ],
                     "descriptions": [
                         "Construction d'un MLP from scratch pour classifier le diagnostic du cancer du sein."
                     ]
@@ -149,6 +227,11 @@
                     "title": "Leaffliction",
                     "link": "https://github.com/sboof911/Leaffliction",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Keras",
+                        "TensorFlow"
+                    ],
                     "descriptions": [
                         "CNN (ResNet-18) pour la classification des maladies des plantes."
                     ]
@@ -157,6 +240,11 @@
                     "title": "Tweets",
                     "link": "https://github.com/sboof911/tweets",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "NLP",
+                        "Scikit-learn"
+                    ],
                     "descriptions": [
                         "Analyse de sentiment avec 18 méthodes de prétraitement."
                     ]
@@ -165,6 +253,11 @@
                     "title": "Total Perspective Vortex",
                     "link": "https://github.com/sboof911/Total-perspective-vortex",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "MNE",
+                        "Scikit-learn"
+                    ],
                     "descriptions": [
                         "Classificateur basé sur EEG pour détecter l'activité motrice."
                     ]
@@ -173,6 +266,10 @@
                     "title": "My Spotify",
                     "link": "https://github.com/sboof911/MySpotify",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "PyArrow"
+                    ],
                     "descriptions": [
                         "Système de recommandation musicale utilisant PyArrow pour le traitement à grande échelle."
                     ]
@@ -186,6 +283,11 @@
                     "title": "Webserv42",
                     "link": "https://github.com/sboof911/webserv42",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "C++",
+                        "Sockets",
+                        "Kqueue"
+                    ],
                     "descriptions": [
                         "Serveur HTTP en C++ avec sockets et kqueue."
                     ]
@@ -194,6 +296,10 @@
                     "title": "Minishell",
                     "link": "https://github.com/sboof911/minishell",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "C",
+                        "Unix"
+                    ],
                     "descriptions": [
                         "Shell Unix développé from scratch en C avec parsing et exécution."
                     ]
@@ -202,6 +308,10 @@
                     "title": "FT Services",
                     "link": "https://github.com/sboof911/ft_services",
                     "linkTool": "GitHub",
+                    "used_tools": [
+                        "Docker",
+                        "Kubernetes"
+                    ],
                     "descriptions": [
                         "Configuration de cluster avec Kubernetes et Docker."
                     ]
@@ -210,6 +320,12 @@
                     "title": "FT Transcendence",
                     "link": null,
                     "linkTool": null,
+                    "used_tools": [
+                        "React",
+                        "Nest.js",
+                        "PostgreSQL",
+                        "Docker"
+                    ],
                     "descriptions": [
                         "Jeu de ping-pong multijoueur en ligne avec chat, profils, amis utilisant React, Nest.js, PostgreSQL et Docker."
                     ]
