@@ -1,0 +1,220 @@
+{
+    "en" : {
+        "firstName": "Anass",
+        "lastName": "Maach",
+        "email": "anassmaachpro@gmail.com",
+        "phone": "+212608603440",
+        "github": "https://github.com/sboof911",
+        "linkedin": "https://www.linkedin.com/in/anassmaach",
+        "title": "Student in Digital Information Architecture, specializing in Data/AI",
+        "education": [
+            {
+                "degree": "Digital Information Architect",
+                "field": "AI and Data",
+                "institution": "1337-UM6P",
+                "from_year": 2023,
+                "to_year": 2025
+            },
+            {
+                "degree": "Junior Developer",
+                "field": "Software Engineering",
+                "institution": "1337-UM6P",
+                "from_year": 2019,
+                "to_year": 2023
+            },
+            {
+                "degree": "2-year University Degree",
+                "field": "Mathematics and Computer Science",
+                "institution": "IBN ZOHR University",
+                "from_year": 2016,
+                "to_year": 2019
+            },
+            {
+                "degree": "Baccalaureate",
+                "field": "Mathematical Sciences",
+                "institution": "Lycée Ibno Maja",
+                "from_year": 2016,
+                "to_year": 2016
+            }
+        ],
+        "professional_experience": [
+            {
+                "title": "Python Developer Intern",
+                "company": "Vanguard",
+                "from": "May 2023",
+                "to":"Oct 2023",
+                "descriptions": [
+                    "Contributed to the development of Pyccel, a Python-to-C compiler.",
+                    "Implemented class support within the project.",
+                    "Participated in optimization and additional development tasks."
+                ]
+            }
+        ],
+        "skills":[
+            {
+                "title":"Programming Languages",
+                "keywords":[
+                    "Python",
+                    "C++",
+                    "C",
+                    "Lua"
+                ]
+            },
+            {
+                "title":"Frameworks",
+                "keywords":[
+                    "TensorFlow",
+                    "PyTorch",
+                    "FastAPI"
+                ]
+            },
+            {
+                "title":"AI/ML",
+                "keywords":[
+                    "CNN",
+                    "LLM",
+                    "RL",
+                    "MLP",
+                    "Agents"
+                ]
+            },
+            {
+                "title":"Tools",
+                "keywords":[
+                    "Git",
+                    "Docker",
+                    "Linux",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "lang":"English",
+                "level":"Fluent"
+            },
+            {
+                "lang":"French",
+                "level":"Fluent"
+            },
+            {
+                "lang":"Arabic",
+                "level":"Native"
+            }
+        ],
+        "Hobbies":[
+            "Making/Playing Music",
+            "Cycling",
+            "Billiards"
+        ]
+    },
+    "fr" : {
+        "firstName": "Anass",
+        "lastName": "Maach",
+        "email": "anassmaachpro@gmail.com",
+        "phone": "+212608603440",
+        "github": "https://github.com/sboof911",
+        "linkedin": "https://www.linkedin.com/in/anassmaach",
+        "title": "Étudiant en Architecture de l’Information Numérique, spécialisé en Data/IA",
+        "education": [
+            {
+                "degree": "Architecte de l’Information Numérique",
+                "field": "IA et Data",
+                "institution": "1337-UM6P",
+                "from_year": 2023,
+                "to_year": 2025
+            },
+            {
+                "degree": "Développeur Junior",
+                "field": "Génie Logiciel",
+                "institution": "1337-UM6P",
+                "from_year": 2019,
+                "to_year": 2023
+            },
+            {
+                "degree": "Diplôme Universitaire de 2 ans",
+                "field": "Mathématiques et Informatique",
+                "institution": "Université IBN ZOHR",
+                "from_year": 2016,
+                "to_year": 2019
+            },
+            {
+                "degree": "Baccalauréat",
+                "field": "Sciences Mathématiques",
+                "institution": "Lycée Ibno Maja",
+                "from_year": 2016,
+                "to_year": 2016
+            }
+        ],
+        "professional_experience": [
+            {
+                "title": "Stagiaire Développeur Python",
+                "company": "Vanguard",
+                "from": "Mai 2023",
+                "to": "Oct 2023",
+                "descriptions": [
+                    "Contribué au développement de Pyccel, un compilateur Python vers C.",
+                    "Implémenté le support des classes dans le projet.",
+                    "Participé à l’optimisation et à d’autres tâches de développement."
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "title": "Langages de Programmation",
+                "keywords": [
+                    "Python",
+                    "C++",
+                    "C",
+                    "Lua"
+                ]
+            },
+            {
+                "title": "Frameworks",
+                "keywords": [
+                    "TensorFlow",
+                    "PyTorch",
+                    "FastAPI"
+                ]
+            },
+            {
+                "title": "IA/ML",
+                "keywords": [
+                    "CNN",
+                    "LLM",
+                    "RL",
+                    "MLP",
+                    "Agents"
+                ]
+            },
+            {
+                "title": "Outils",
+                "keywords": [
+                    "Git",
+                    "Docker",
+                    "Linux",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "lang": "Anglais",
+                "level": "Courant"
+            },
+            {
+                "lang": "Français",
+                "level": "Courant"
+            },
+            {
+                "lang": "Arabe",
+                "level": "Langue Maternelle"
+            }
+        ],
+        "Hobbies": [
+            "Composer/Jouer de la Musique",
+            "Cyclisme",
+            "Billard"
+        ]
+    }
+}

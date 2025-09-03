@@ -1,0 +1,5 @@
+Passionate about artificial intelligence, with a strong focus on reinforcement learning and automation. Proficient in Python and its data science and AI frameworks, including Pandas, PyArrow, TensorFlow, PyTorch, and Keras.  
+Experienced with a variety of AI architectures such as LLMs, CNNs, RNNs, MLPs, and RL models.  
+
+Also skilled in web scraping (Requests, BeautifulSoup, Selenium), and have experience with C, C++, TypeScript, and Lua.  
+Eager to continue growing in the AI field and contribute to innovative projects.

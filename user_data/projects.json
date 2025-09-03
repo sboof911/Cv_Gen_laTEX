@@ -1,0 +1,220 @@
+{
+    "en": [
+        {
+            "section":"AI Projects",
+            "projects": [
+                {
+                    "title":"Game Bot (Personal Project)",
+                    "link":null,
+                    "linkTool":null,
+                    "descriptions": [
+                        "Developed and maintained a bot that plays an online game via sockets.",
+                        "Currently integrating reinforcement learning for better battle performance."
+                    ]
+                },
+                {
+                    "title":"Gomoku",
+                    "link":"https://github.com/sboof911/Gomoku",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "Board game AI using Minimax with heuristic scoring."
+                    ]
+                },
+                {
+                    "title":"Understanding Customer",
+                    "link":"https://github.com/sboof911/Understanding-customer",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "LLM-based intent prediction using a fine-tuned BERT model."
+                    ]
+                },
+                {
+                    "title":"Multilayer Perceptron",
+                    "link":"https://github.com/sboof911/Multilayer-Perceptron",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "Built MLP from scratch to classify breast cancer diagnosis."
+                    ]
+                },
+                {
+                    "title":"Leaffliction",
+                    "link":"https://github.com/sboof911/Leaffliction",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "CNN (ResNet-18) for plant disease classification."
+                    ]
+                },
+                {
+                    "title":"Tweets",
+                    "link":"https://github.com/sboof911/tweets",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "Sentiment analysis with 18 preprocessing methods."
+                    ]
+                },
+                {
+                    "title":"Total Perspective Vortex",
+                    "link":"https://github.com/sboof911/Total-perspective-vortex",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "EEG-based classifier to detect motor activity."
+                    ]
+                },
+                {
+                    "title":"My Spotify",
+                    "link":"https://github.com/sboof911/MySpotify",
+                    "linkTool":"GitHub",
+                    "descriptions": [
+                        "Music recommendation system using PyArrow for large-scale processing."
+                    ]
+                }
+            ]
+        },
+        {
+            "section":"Software Projects",
+            "projects": [
+                {
+                    "title": "Webserv42",
+                    "link": "https://github.com/sboof911/webserv42",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "HTTP server in C++ with sockets and kqueue."
+                    ]
+                },
+                {
+                    "title": "Minishell",
+                    "link": "https://github.com/sboof911/minishell",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Unix shell from scratch in C with parsing and execution."
+                    ]
+                },
+                {
+                    "title": "FT Services",
+                    "link": "https://github.com/sboof911/ft_services",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Cluster setup using Kubernetes and Docker."
+                    ]
+                },
+                {
+                    "title": "FT Transcendence",
+                    "link": null,
+                    "linkTool": null,
+                    "descriptions": [
+                        "Online multiplayer ping pong game with chat, profiles, friends using React, Nest.js, PostgreSQL, and Docker."
+                    ]
+                }
+            ]
+        }
+    ],
+    "fr":[
+        {
+            "section": "Projets IA",
+            "projects": [
+                {
+                    "title": "Bot de Jeu (Projet Personnel)",
+                    "link": null,
+                    "linkTool": null,
+                    "descriptions": [
+                        "Développé et maintenu un bot qui joue à un jeu en ligne via des sockets.",
+                        "Intégration en cours de l'apprentissage par renforcement pour améliorer les performances en combat."
+                    ]
+                },
+                {
+                    "title": "Gomoku",
+                    "link": "https://github.com/sboof911/Gomoku",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "IA pour jeu de plateau utilisant Minimax avec évaluation heuristique."
+                    ]
+                },
+                {
+                    "title": "Understanding Customer",
+                    "link": "https://github.com/sboof911/Understanding-customer",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Prédiction d'intention basée sur LLM en utilisant un modèle BERT fine-tuné."
+                    ]
+                },
+                {
+                    "title": "Multilayer Perceptron",
+                    "link": "https://github.com/sboof911/Multilayer-Perceptron",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Construction d'un MLP from scratch pour classifier le diagnostic du cancer du sein."
+                    ]
+                },
+                {
+                    "title": "Leaffliction",
+                    "link": "https://github.com/sboof911/Leaffliction",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "CNN (ResNet-18) pour la classification des maladies des plantes."
+                    ]
+                },
+                {
+                    "title": "Tweets",
+                    "link": "https://github.com/sboof911/tweets",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Analyse de sentiment avec 18 méthodes de prétraitement."
+                    ]
+                },
+                {
+                    "title": "Total Perspective Vortex",
+                    "link": "https://github.com/sboof911/Total-perspective-vortex",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Classificateur basé sur EEG pour détecter l'activité motrice."
+                    ]
+                },
+                {
+                    "title": "My Spotify",
+                    "link": "https://github.com/sboof911/MySpotify",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Système de recommandation musicale utilisant PyArrow pour le traitement à grande échelle."
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "Projets Logiciels",
+            "projects": [
+                {
+                    "title": "Webserv42",
+                    "link": "https://github.com/sboof911/webserv42",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Serveur HTTP en C++ avec sockets et kqueue."
+                    ]
+                },
+                {
+                    "title": "Minishell",
+                    "link": "https://github.com/sboof911/minishell",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Shell Unix développé from scratch en C avec parsing et exécution."
+                    ]
+                },
+                {
+                    "title": "FT Services",
+                    "link": "https://github.com/sboof911/ft_services",
+                    "linkTool": "GitHub",
+                    "descriptions": [
+                        "Configuration de cluster avec Kubernetes et Docker."
+                    ]
+                },
+                {
+                    "title": "FT Transcendence",
+                    "link": null,
+                    "linkTool": null,
+                    "descriptions": [
+                        "Jeu de ping-pong multijoueur en ligne avec chat, profils, amis utilisant React, Nest.js, PostgreSQL et Docker."
+                    ]
+                }
+            ]
+        }
+    ]
+}

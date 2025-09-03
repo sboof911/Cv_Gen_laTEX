@@ -1,0 +1,5 @@
+Passionné par l’intelligence artificielle, avec un fort intérêt pour l’apprentissage par renforcement et l’automatisation. Compétent en Python et dans ses frameworks pour la data science et l’IA, notamment Pandas, PyArrow, TensorFlow, PyTorch et Keras.
+Expérimenté avec diverses architectures d’IA telles que les LLM, CNN, RNN, MLP et les modèles de RL.
+
+Aussi compétent en web scraping (Requests, BeautifulSoup, Selenium), et ayant de l’expérience en C, C++, TypeScript et Lua.
+Désireux de continuer à progresser dans le domaine de l’IA et de contribuer à des projets innovants.
