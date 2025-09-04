@@ -1,7 +1,7 @@
 {
     "en": [
         {
-            "section":"AI Projects",
+            "section":"DATA SCIENCE Projects",
             "projects": [
                 {
                     "title":"Game Bot (Personal Project)",
@@ -18,93 +18,187 @@
                     ]
                 },
                 {
-                    "title":"Gomoku",
-                    "link":"https://github.com/sboof911/Gomoku",
-                    "linkTool":"GitHub",
+                    "title": "Gomoku",
+                    "link": "https://github.com/sboof911/Gomoku",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "Minimax",
-                        "Heuristic Scoring"
+                    "Python",
+                    "TypeScript",
+                    "React",
+                    "Minimax Algorithm",
+                    "Alpha-Beta Pruning",
+                    "Memoization"
                     ],
                     "descriptions": [
-                        "Board game AI using Minimax with heuristic scoring."
+                    "Developed a complete Gomoku game with both backend (Python) and frontend (TypeScript/React).",
+                    "Implemented an AI opponent using the Minimax algorithm with alpha-beta pruning and heuristics.",
+                    "Optimized performance by introducing memoization to avoid redundant calculations."
                     ]
                 },
                 {
-                    "title":"Understanding Customer",
-                    "link":"https://github.com/sboof911/Understanding-customer",
-                    "linkTool":"GitHub",
+                    "title": "Understanding Customer",
+                    "link": "https://github.com/sboof911/Understanding-customer",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "BERT",
-                        "Transformers",
-                        "Hugging Face"
+                    "Python",
+                    "Jupyter Notebook",
+                    "RNN",
+                    "LSTM",
+                    "Transformer",
+                    "BERT",
+                    "Falconsai intent_classification"
                     ],
                     "descriptions": [
-                        "LLM-based intent prediction using a fine-tuned BERT model."
+                    "Designed deep learning experiments for intent classification using RNN, LSTM, and Transformer-based models.",
+                    "Fine-tuned the Falconsai/intent_classification model on custom datasets to improve accuracy.",
+                    "Compared preprocessing pipelines and architectures to evaluate model performance."
                     ]
                 },
                 {
-                    "title":"Multilayer Perceptron",
-                    "link":"https://github.com/sboof911/Multilayer-Perceptron",
-                    "linkTool":"GitHub",
+                    "title": "MySpotify",
+                    "link": "https://github.com/sboof911/MySpotify",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "Pandas"
+                    "Python",
+                    "Pandas",
+                    "Word2Vec",
+                    "MLPClassifier",
+                    "Alternating Least Squares (ALS)"
                     ],
                     "descriptions": [
-                        "Built MLP from scratch to classify breast cancer diagnosis."
+                    "Built a recommendation engine that integrates multiple strategies: baseline, content-based, and collaborative filtering.",
+                    "Implemented Word2Vec embeddings and MLP classifiers to model music similarity and user preferences.",
+                    "Developed ALS-based collaborative filtering for personalized recommendations."
                     ]
                 },
                 {
-                    "title":"Leaffliction",
-                    "link":"https://github.com/sboof911/Leaffliction",
-                    "linkTool":"GitHub",
+                    "title": "Multilayer Perceptron",
+                    "link": "https://github.com/sboof911/Multilayer-Perceptron",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "Keras",
-                        "TensorFlow"
+                    "Python",
+                    "NumPy",
+                    "Matplotlib",
+                    "Neural Networks"
                     ],
                     "descriptions": [
-                        "CNN (ResNet-18) for plant disease classification."
+                    "Implemented a feed-forward multilayer perceptron from scratch to classify breast cancer data.",
+                    "Built training, evaluation, and visualization modules including accuracy and loss curves.",
+                    "Designed a modular prediction pipeline to validate real test cases."
                     ]
                 },
                 {
-                    "title":"Tweets",
-                    "link":"https://github.com/sboof911/tweets",
-                    "linkTool":"GitHub",
+                    "title": "Leaffliction",
+                    "link": "https://github.com/sboof911/Leaffliction",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "NLP",
-                        "Scikit-learn"
+                    "Python",
+                    "PyTorch",
+                    "ResNet-18",
+                    "Transfer Learning",
+                    "Image Augmentation"
                     ],
                     "descriptions": [
-                        "Sentiment analysis with 18 preprocessing methods."
+                    "Developed a plant disease detection model using transfer learning with ResNet-18.",
+                    "Applied data augmentation (resizing, grayscale, blur) to improve model robustness.",
+                    "Separated training and prediction into modular scripts for easy reuse."
                     ]
                 },
                 {
-                    "title":"Total Perspective Vortex",
-                    "link":"https://github.com/sboof911/Total-perspective-vortex",
-                    "linkTool":"GitHub",
+                    "title": "Tweets",
+                    "link": "https://github.com/sboof911/tweets",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "MNE",
-                        "Scikit-learn"
+                    "Python",
+                    "Natural Language Processing",
+                    "TF-IDF",
+                    "Word2Vec"
                     ],
                     "descriptions": [
-                        "EEG-based classifier to detect motor activity."
+                    "Explored NLP techniques including bag-of-words, TF-IDF, stemming, lemmatization, and stopword removal.",
+                    "Implemented similarity models with cosine distance and n-gram analysis.",
+                    "Integrated word2vec embeddings to improve semantic understanding."
                     ]
                 },
                 {
-                    "title":"My Spotify",
-                    "link":"https://github.com/sboof911/MySpotify",
-                    "linkTool":"GitHub",
+                    "title": "Uber",
+                    "link": "https://github.com/sboof911/Uber",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "Python",
-                        "PyArrow"
+                    "Python",
+                    "Pandas",
+                    "Time Series Analysis",
+                    "ARIMA",
+                    "Exponential Smoothing"
                     ],
                     "descriptions": [
-                        "Music recommendation system using PyArrow for large-scale processing."
+                    "Performed time series analysis on Uber ride data to forecast demand.",
+                    "Implemented Triple Exponential Smoothing (TES) and ARIMA models.",
+                    "Engineered features such as ride counts by hour, day, and month."
+                    ]
+                },
+                {
+                    "title": "City Life",
+                    "link": "https://github.com/sboof911/City-Life",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                    "Python",
+                    "GeoPandas",
+                    "Clustering",
+                    "Geospatial Analytics"
+                    ],
+                    "descriptions": [
+                    "Conducted geospatial analysis on urban mobility datasets.",
+                    "Applied clustering techniques to identify patterns in city ride distribution.",
+                    "Built interactive maps to visualize results with GeoPandas."
+                    ]
+                },
+                {
+                    "title": "Churn",
+                    "link": "https://github.com/sboof911/churn",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                    "Python",
+                    "Neural Networks",
+                    "Dropout",
+                    "Backpropagation"
+                    ],
+                    "descriptions": [
+                    "Implemented a fully-connected neural network to predict customer churn.",
+                    "Explored hidden layers, activation functions, backpropagation, and dropout.",
+                    "Evaluated model performance on real-world datasets."
+                    ]
+                },
+                {
+                    "title": "Fried Eggs",
+                    "link": "https://github.com/sboof911/Fried-eggs",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                    "Python",
+                    "Deep Learning",
+                    "CNN",
+                    "Instance Segmentation",
+                    "Object Detection"
+                    ],
+                    "descriptions": [
+                    "Introduced deep learning for computer vision tasks such as object detection and segmentation.",
+                    "Built pipelines for data labeling and model training.",
+                    "Implemented convolutional neural networks for image recognition."
+                    ]
+                },
+                {
+                    "title": "Total-perspective-vortex",
+                    "link": "https://github.com/sboof911/total-perspectivevortex",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                    "Python",
+                    "Data Processing",
+                    "Human-Computer Interaction"
+                    ],
+                    "descriptions": [
+                    "Explored high-dimensional data processing techniques with Python.",
+                    "Experimented with brainwave-driven human-computer interaction.",
+                    "Built prototypes for interactive man-machine interfaces."
                     ]
                 }
             ]
@@ -113,224 +207,78 @@
             "section":"Software Projects",
             "projects": [
                 {
-                    "title": "Webserv42",
-                    "link": "https://github.com/sboof911/webserv42",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "C++",
-                        "Sockets",
-                        "Kqueue"
-                    ],
-                    "descriptions": [
-                        "HTTP server in C++ with sockets and kqueue."
-                    ]
+                "title": "Minishell",
+                "link": "https://github.com/sboof911/minishell",
+                "linkTool": "Github",
+                "used_tools": [
+                    "C",
+                    "Makefile",
+                    "Unix System Calls",
+                    "Libft (custom library)",
+                    "Parsing & Tokenization",
+                    "Signal Handling"
+                ],
+                "descriptions": [
+                    "Recreated a simplified Bash-like shell from scratch in C.",
+                    "Implemented core functionalities: built-in commands (echo, cd, pwd, export, unset, env, exit), environment variable expansion, and exit status tracking via `$?`."
+                 ]
                 },
                 {
-                    "title": "Minishell",
-                    "link": "https://github.com/sboof911/minishell",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "C",
-                        "Unix"
-                    ],
-                    "descriptions": [
-                        "Unix shell from scratch in C with parsing and execution."
-                    ]
-                },
-                {
-                    "title": "FT Services",
+                    "title": "Ft_services",
                     "link": "https://github.com/sboof911/ft_services",
                     "linkTool": "GitHub",
                     "used_tools": [
-                        "Docker",
-                        "Kubernetes"
+                    "Docker",
+                    "Kubernetes",
+                    "Nginx",
+                    "MySQL",
+                    "Grafana",
+                    "InfluxDB",
+                    "WordPress",
+                    "phpMyAdmin"
                     ],
                     "descriptions": [
-                        "Cluster setup using Kubernetes and Docker."
+                    "Containerized and deployed multiple services (Nginx, MySQL, WordPress, Grafana, InfluxDB, phpMyAdmin).",
+                    "Used Docker Compose and Kubernetes to orchestrate a multi-service infrastructure.",
+                    "Automated service deployment with custom shell scripts."
                     ]
                 },
                 {
-                    "title": "FT Transcendence",
-                    "link": null,
-                    "linkTool": null,
+                    "title": "Webserv",
+                    "link": "https://github.com/sboof911/webserv",
+                    "linkTool": "GitHub",
                     "used_tools": [
-                        "React",
-                        "Nest.js",
-                        "PostgreSQL",
-                        "Docker"
+                    "C++",
+                    "HTTP/1.1",
+                    "Sockets",
+                    "Epoll/Kqueue"
                     ],
                     "descriptions": [
-                        "Online multiplayer ping pong game with chat, profiles, friends using React, Nest.js, PostgreSQL, and Docker."
+                    "Developed a fully functional HTTP server in C++ supporting HTTP/1.1.",
+                    "Handled socket programming, request parsing, and response generation.",
+                    "Supported CGI execution and tested compatibility with real browsers."
+                    ]
+                },
+                {
+                    "title": "Ft_transcendence",
+                    "link": "https://github.com/sboof911/ft_transcendence",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                    "TypeScript",
+                    "NestJS",
+                    "React",
+                    "PostgreSQL",
+                    "WebSockets",
+                    "Docker"
+                    ],
+                    "descriptions": [
+                    "Developed a full-stack web application with authentication, chat, and multiplayer Pong game.",
+                    "Backend built with NestJS and PostgreSQL, frontend with React.",
+                    "Integrated WebSockets for real-time interactions and containerized with Docker."
                     ]
                 }
             ]
         }
     ],
-    "fr":[
-        {
-            "section": "Projets IA",
-            "projects": [
-                {
-                    "title": "Bot de Jeu (Projet Personnel)",
-                    "link": null,
-                    "linkTool": null,
-                    "used_tools": [
-                        "Python",
-                        "Sockets",
-                        "Reinforcement Learning"
-                    ],
-                    "descriptions": [
-                        "Développé et maintenu un bot qui joue à un jeu en ligne via des sockets.",
-                        "Intégration en cours de l'apprentissage par renforcement pour améliorer les performances en combat."
-                    ]
-                },
-                {
-                    "title": "Gomoku",
-                    "link": "https://github.com/sboof911/Gomoku",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "Minimax",
-                        "Heuristic Scoring"
-                    ],
-                    "descriptions": [
-                        "IA pour jeu de plateau utilisant Minimax avec évaluation heuristique."
-                    ]
-                },
-                {
-                    "title": "Understanding Customer",
-                    "link": "https://github.com/sboof911/Understanding-customer",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "BERT",
-                        "Transformers",
-                        "Hugging Face"
-                    ],
-                    "descriptions": [
-                        "Prédiction d'intention basée sur LLM en utilisant un modèle BERT fine-tuné."
-                    ]
-                },
-                {
-                    "title": "Multilayer Perceptron",
-                    "link": "https://github.com/sboof911/Multilayer-Perceptron",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "Pandas"
-                    ],
-                    "descriptions": [
-                        "Construction d'un MLP from scratch pour classifier le diagnostic du cancer du sein."
-                    ]
-                },
-                {
-                    "title": "Leaffliction",
-                    "link": "https://github.com/sboof911/Leaffliction",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "Keras",
-                        "TensorFlow"
-                    ],
-                    "descriptions": [
-                        "CNN (ResNet-18) pour la classification des maladies des plantes."
-                    ]
-                },
-                {
-                    "title": "Tweets",
-                    "link": "https://github.com/sboof911/tweets",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "NLP",
-                        "Scikit-learn"
-                    ],
-                    "descriptions": [
-                        "Analyse de sentiment avec 18 méthodes de prétraitement."
-                    ]
-                },
-                {
-                    "title": "Total Perspective Vortex",
-                    "link": "https://github.com/sboof911/Total-perspective-vortex",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "MNE",
-                        "Scikit-learn"
-                    ],
-                    "descriptions": [
-                        "Classificateur basé sur EEG pour détecter l'activité motrice."
-                    ]
-                },
-                {
-                    "title": "My Spotify",
-                    "link": "https://github.com/sboof911/MySpotify",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Python",
-                        "PyArrow"
-                    ],
-                    "descriptions": [
-                        "Système de recommandation musicale utilisant PyArrow pour le traitement à grande échelle."
-                    ]
-                }
-            ]
-        },
-        {
-            "section": "Projets Logiciels",
-            "projects": [
-                {
-                    "title": "Webserv42",
-                    "link": "https://github.com/sboof911/webserv42",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "C++",
-                        "Sockets",
-                        "Kqueue"
-                    ],
-                    "descriptions": [
-                        "Serveur HTTP en C++ avec sockets et kqueue."
-                    ]
-                },
-                {
-                    "title": "Minishell",
-                    "link": "https://github.com/sboof911/minishell",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "C",
-                        "Unix"
-                    ],
-                    "descriptions": [
-                        "Shell Unix développé from scratch en C avec parsing et exécution."
-                    ]
-                },
-                {
-                    "title": "FT Services",
-                    "link": "https://github.com/sboof911/ft_services",
-                    "linkTool": "GitHub",
-                    "used_tools": [
-                        "Docker",
-                        "Kubernetes"
-                    ],
-                    "descriptions": [
-                        "Configuration de cluster avec Kubernetes et Docker."
-                    ]
-                },
-                {
-                    "title": "FT Transcendence",
-                    "link": null,
-                    "linkTool": null,
-                    "used_tools": [
-                        "React",
-                        "Nest.js",
-                        "PostgreSQL",
-                        "Docker"
-                    ],
-                    "descriptions": [
-                        "Jeu de ping-pong multijoueur en ligne avec chat, profils, amis utilisant React, Nest.js, PostgreSQL et Docker."
-                    ]
-                }
-            ]
-        }
-    ]
+    "fr":[]
 }
