@@ -1,2 +1,4 @@
-*cv*
 __pycache__/
+*.pdf
+*.tex
+*.env

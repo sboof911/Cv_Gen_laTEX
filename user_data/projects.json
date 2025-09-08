@@ -280,5 +280,285 @@
             ]
         }
     ],
-    "fr":[]
+    "fr": [
+        {
+            "section": "Projets DATA SCIENCE",
+            "projects": [
+                {
+                    "title": "Game Bot (Projet Personnel)",
+                    "link": null,
+                    "linkTool": null,
+                    "used_tools": [
+                        "Python",
+                        "Sockets",
+                        "Apprentissage par renforcement"
+                    ],
+                    "descriptions": [
+                        "Développé et maintenu un bot qui joue à un jeu en ligne via des sockets.",
+                        "Intégration en cours de l'apprentissage par renforcement pour de meilleures performances en combat."
+                    ]
+                },
+                {
+                    "title": "Gomoku",
+                    "link": "https://github.com/sboof911/Gomoku",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "TypeScript",
+                        "React",
+                        "Algorithme Minimax",
+                        "Élagage Alpha-Beta",
+                        "Mémorisation"
+                    ],
+                    "descriptions": [
+                        "Développé un jeu complet de Gomoku avec backend (Python) et frontend (TypeScript/React).",
+                        "Implémenté une IA adversaire utilisant l'algorithme Minimax avec élagage alpha-beta et heuristiques.",
+                        "Optimisé les performances grâce à la mémorisation pour éviter les calculs redondants."
+                    ]
+                },
+                {
+                    "title": "Understanding Customer",
+                    "link": "https://github.com/sboof911/Understanding-customer",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Jupyter Notebook",
+                        "RNN",
+                        "LSTM",
+                        "Transformer",
+                        "BERT",
+                        "Falconsai intent_classification"
+                    ],
+                    "descriptions": [
+                        "Conçu des expériences d'apprentissage profond pour la classification d'intentions avec RNN, LSTM et modèles basés sur Transformer.",
+                        "Ajusté le modèle Falconsai/intent_classification sur des jeux de données personnalisés pour améliorer la précision.",
+                        "Comparé les pipelines de prétraitement et les architectures pour évaluer les performances des modèles."
+                    ]
+                },
+                {
+                    "title": "MySpotify",
+                    "link": "https://github.com/sboof911/MySpotify",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Pandas",
+                        "Word2Vec",
+                        "MLPClassifier",
+                        "Alternating Least Squares (ALS)"
+                    ],
+                    "descriptions": [
+                        "Construit un moteur de recommandation intégrant plusieurs stratégies : baseline, filtrage basé sur le contenu et collaboratif.",
+                        "Implémenté des embeddings Word2Vec et des classificateurs MLP pour modéliser la similarité musicale et les préférences utilisateur.",
+                        "Développé un filtrage collaboratif basé sur ALS pour des recommandations personnalisées."
+                    ]
+                },
+                {
+                    "title": "Perceptron multicouche",
+                    "link": "https://github.com/sboof911/Multilayer-Perceptron",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "NumPy",
+                        "Matplotlib",
+                        "Réseaux de neurones"
+                    ],
+                    "descriptions": [
+                        "Implémenté un perceptron multicouche feed-forward à partir de zéro pour classifier des données sur le cancer du sein.",
+                        "Créé des modules d'entraînement, d'évaluation et de visualisation incluant les courbes de précision et de perte.",
+                        "Conçu un pipeline de prédiction modulaire pour valider des cas de test réels."
+                    ]
+                },
+                {
+                    "title": "Leaffliction",
+                    "link": "https://github.com/sboof911/Leaffliction",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "PyTorch",
+                        "ResNet-18",
+                        "Transfert d'apprentissage",
+                        "Augmentation d'image"
+                    ],
+                    "descriptions": [
+                        "Développé un modèle de détection de maladies des plantes utilisant le transfert d'apprentissage avec ResNet-18.",
+                        "Appliqué des augmentations de données (redimensionnement, niveaux de gris, flou) pour améliorer la robustesse du modèle.",
+                        "Séparé l'entraînement et la prédiction en scripts modulaires pour une réutilisation facile."
+                    ]
+                },
+                {
+                    "title": "Tweets",
+                    "link": "https://github.com/sboof911/tweets",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Traitement du langage naturel",
+                        "TF-IDF",
+                        "Word2Vec"
+                    ],
+                    "descriptions": [
+                        "Exploré des techniques NLP incluant bag-of-words, TF-IDF, stemming, lemmatisation et suppression des stopwords.",
+                        "Implémenté des modèles de similarité avec distance cosinus et analyse n-gram.",
+                        "Intégré des embeddings word2vec pour améliorer la compréhension sémantique."
+                    ]
+                },
+                {
+                    "title": "Uber",
+                    "link": "https://github.com/sboof911/Uber",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Pandas",
+                        "Analyse de séries temporelles",
+                        "ARIMA",
+                        "Lissage exponentiel"
+                    ],
+                    "descriptions": [
+                        "Réalisé une analyse de séries temporelles sur les données de trajets Uber pour prévoir la demande.",
+                        "Implémenté des modèles TES (Triple Exponential Smoothing) et ARIMA.",
+                        "Créé des caractéristiques telles que le nombre de trajets par heure, jour et mois."
+                    ]
+                },
+                {
+                    "title": "City Life",
+                    "link": "https://github.com/sboof911/City-Life",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "GeoPandas",
+                        "Clustering",
+                        "Analyse géospatiale"
+                    ],
+                    "descriptions": [
+                        "Réalisé une analyse géospatiale sur des jeux de données de mobilité urbaine.",
+                        "Appliqué des techniques de clustering pour identifier des motifs dans la distribution des trajets en ville.",
+                        "Créé des cartes interactives pour visualiser les résultats avec GeoPandas."
+                    ]
+                },
+                {
+                    "title": "Churn",
+                    "link": "https://github.com/sboof911/churn",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Réseaux de neurones",
+                        "Dropout",
+                        "Rétropropagation"
+                    ],
+                    "descriptions": [
+                        "Implémenté un réseau de neurones entièrement connecté pour prédire le churn client.",
+                        "Exploré les couches cachées, fonctions d'activation, rétropropagation et dropout.",
+                        "Évalué les performances du modèle sur des jeux de données réels."
+                    ]
+                },
+                {
+                    "title": "Fried Eggs",
+                    "link": "https://github.com/sboof911/Fried-eggs",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Deep Learning",
+                        "CNN",
+                        "Segmentation d'instances",
+                        "Détection d'objets"
+                    ],
+                    "descriptions": [
+                        "Introduit l'apprentissage profond pour des tâches de vision par ordinateur telles que la détection et la segmentation d'objets.",
+                        "Construit des pipelines pour l'étiquetage des données et l'entraînement des modèles.",
+                        "Implémenté des réseaux de neurones convolutifs pour la reconnaissance d'images."
+                    ]
+                },
+                {
+                    "title": "Total-perspective-vortex",
+                    "link": "https://github.com/sboof911/total-perspectivevortex",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Python",
+                        "Traitement de données",
+                        "Interaction homme-machine"
+                    ],
+                    "descriptions": [
+                        "Exploré des techniques de traitement de données haute dimension avec Python.",
+                        "Expérimenté l'interaction homme-machine pilotée par ondes cérébrales.",
+                        "Construit des prototypes pour des interfaces homme-machine interactives."
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "Projets logiciels",
+            "projects": [
+                {
+                    "title": "Minishell",
+                    "link": "https://github.com/sboof911/minishell",
+                    "linkTool": "Github",
+                    "used_tools": [
+                        "C",
+                        "Makefile",
+                        "Appels système Unix",
+                        "Libft (bibliothèque personnalisée)",
+                        "Analyse & Tokenisation",
+                        "Gestion des signaux"
+                    ],
+                    "descriptions": [
+                        "Recréé un shell simplifié de type Bash à partir de zéro en C.",
+                        "Implémenté les fonctionnalités principales : commandes intégrées (echo, cd, pwd, export, unset, env, exit), expansion des variables d'environnement et suivi du statut de sortie via `$?`."
+                    ]
+                },
+                {
+                    "title": "Ft_services",
+                    "link": "https://github.com/sboof911/ft_services",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "Docker",
+                        "Kubernetes",
+                        "Nginx",
+                        "MySQL",
+                        "Grafana",
+                        "InfluxDB",
+                        "WordPress",
+                        "phpMyAdmin"
+                    ],
+                    "descriptions": [
+                        "Conteneurisé et déployé plusieurs services (Nginx, MySQL, WordPress, Grafana, InfluxDB, phpMyAdmin).",
+                        "Utilisé Docker Compose et Kubernetes pour orchestrer une infrastructure multi-services.",
+                        "Automatisé le déploiement des services avec des scripts shell personnalisés."
+                    ]
+                },
+                {
+                    "title": "Webserv",
+                    "link": "https://github.com/sboof911/webserv",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "C++",
+                        "HTTP/1.1",
+                        "Sockets",
+                        "Epoll/Kqueue"
+                    ],
+                    "descriptions": [
+                        "Développé un serveur HTTP entièrement fonctionnel en C++ supportant HTTP/1.1.",
+                        "Géré la programmation des sockets, l'analyse des requêtes et la génération des réponses.",
+                        "Supporté l'exécution CGI et testé la compatibilité avec de vrais navigateurs."
+                    ]
+                },
+                {
+                    "title": "Ft_transcendence",
+                    "link": "https://github.com/sboof911/ft_transcendence",
+                    "linkTool": "GitHub",
+                    "used_tools": [
+                        "TypeScript",
+                        "NestJS",
+                        "React",
+                        "PostgreSQL",
+                        "WebSockets",
+                        "Docker"
+                    ],
+                    "descriptions": [
+                        "Développé une application web full-stack avec authentification, chat et jeu Pong multijoueur.",
+                        "Backend construit avec NestJS et PostgreSQL, frontend avec React.",
+                        "Intégré WebSockets pour des interactions en temps réel et conteneurisé avec Docker."
+                    ]
+                }
+            ]
+        }
+    ]
 }
