@@ -2,3 +2,4 @@ requests
 pylatexenc
 pylatex
 PyGithub
+openai

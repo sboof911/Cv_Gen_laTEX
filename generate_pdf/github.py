@@ -1,7 +1,7 @@
 from github import Github
 import os
 from dotenv import load_dotenv
-
+from latex_format.latex_builder import ICONS_DIR
 load_dotenv()
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -16,6 +16,19 @@ class github_repo:
         self.g = Github(GITHUB_TOKEN)
         self.repo = self.g.get_repo(REPO_NAME)
         self.url = self.repo.html_url
+        self.upload_icons()
+
+    def upload_icons(self):
+        files_in_main_repo = [file.path for file in self.repo.get_contents("")]
+        if "icons" in files_in_main_repo:
+            files_in_repo = [file.path for file in self.repo.get_contents("icons")]
+        icons_names = [icon.split('.')[0] for icon in os.listdir(ICONS_DIR)]
+        for icon_name in icons_names:
+            if f"icons/{icon_name}.png" not in files_in_repo:
+                with open(os.path.join(ICONS_DIR, f"{icon_name}.png"), "rb") as f:
+                    content = f.read()
+                self.repo.create_file(f"icons/{icon_name}.png", "Add icon " + icon_name, content)
+                print(f"✅ Icon uploaded: {icon_name}.png")
 
     def upload_file(self, local_path: str):
         with open(local_path, "r", encoding="utf-8") as f:

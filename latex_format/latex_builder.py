@@ -1,8 +1,9 @@
 from typing import Dict, List
-
+import os
 from pylatex import Document, Center, Package, NoEscape
 from pylatexenc.latexencode import unicode_to_latex
 
+ICONS_DIR = os.path.join(os.path.dirname(__file__), 'icons')
 
 def build_tex(user_data: Dict, projects: List[Dict], profile_description: str) -> str:
     """Build a LaTeX document string from data using pylatex/pylatexenc when available.
@@ -17,6 +18,7 @@ def build_tex(user_data: Dict, projects: List[Dict], profile_description: str) -
     doc.packages.append(Package('enumitem'))
     doc.packages.append(Package('titlesec'))
     doc.packages.append(Package('needspace'))
+    doc.packages.append(Package('graphicx'))
     doc.packages.append(Package('hyperref', options='hidelinks'))
 
     # add titlesec formatting and custom command
@@ -29,8 +31,18 @@ def build_tex(user_data: Dict, projects: List[Dict], profile_description: str) -
         # email clickable, label escaped
         center.append(NoEscape(r'\href{mailto:' + user_data.get('email','') + r'}{' + safe(user_data.get('email','')) + r'}'))
         center.append(NoEscape(r' \quad ' + safe(user_data.get('phone','')) + r' \quad '))
-        center.append(NoEscape(r'\href{' + user_data.get('linkedin','') + r'}{LinkedIn} \quad '))
-        center.append(NoEscape(r'\href{' + user_data.get('github','') + r'}{GitHub}'))
+
+        linkedin_url = user_data.get('linkedin','')
+        linkedin_username = linkedin_url.split('/')[-1] if linkedin_url else ''
+        center.append(NoEscape(
+            r'\href{' + linkedin_url + r'}{\raisebox{-0.2em}{\includegraphics[height=1.2em]{icons/linkedin.png}}' +  safe('/' + linkedin_username) + r'} \quad '
+        ))
+
+        github_url = user_data.get('github','')
+        github_username = github_url.split('/')[-1] if github_url else ''
+        center.append(NoEscape(
+            r'\href{' + github_url + r'}{\raisebox{-0.2em}{\includegraphics[height=1.2em]{icons/github.png}}' + safe('/' + github_username) + r'}'
+        ))
 
     
     # Profile
@@ -80,9 +92,10 @@ def build_tex(user_data: Dict, projects: List[Dict], profile_description: str) -
             title = safe(project.get('title',''))
             link = project.get('link','')
             descriptions = project.get('descriptions', [])
-            linktool = safe(project.get('linkTool','Github'))
+            linktool = safe(project.get('linkTool', None))
             doc.append(NoEscape(rf'\needspace{{{len(descriptions)}\baselineskip}}'))
             if link:
+                linktool = r'{\raisebox{-0.2em}{\includegraphics[height=1.2em]{icons/github.png}}}' if linktool.lower() == 'github' else linktool
                 doc.append(NoEscape(rf'\noindent \textbf{{{title}}} - \href{{{link}}}{{{linktool}}}'))
             else:
                 doc.append(NoEscape(rf'\noindent \textbf{{{title}}}'))

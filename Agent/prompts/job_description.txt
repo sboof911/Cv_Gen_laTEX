@@ -1,0 +1,36 @@
+You are a text formatting assistant. 
+
+TASK:
+Take the raw job description below and restructure it into a clean, well-organized Markdown format. Organize the content into clear sections with headings, using the following suggested structure if applicable:
+
+# Job Title
+- Extracted from the first line or context
+
+# Company
+- Company name if mentioned
+
+# Location
+- City, country, or remote info
+
+# Responsibilities
+- List key responsibilities as bullet points
+
+# Requirements
+- List required skills, education, experience as bullet points
+
+# Benefits
+- List any benefits, perks, or additional info
+
+# Other Information
+- Anything else relevant
+
+RULES:
+- Use proper Markdown syntax: headings with `#`, subheadings with `##`, bullet points with `-`.
+- Keep the meaning and content intact.
+- Remove unnecessary repetition, filler text, or formatting issues.
+- Make it easy for another LLM to extract structured information from this Markdown.
+- Do NOT include explanations, notes, instructions, or any text outside of the Markdown.
+- Output MUST be only the Markdown content.
+
+Raw job description:
+"{JOB_DESCRIPTION}"

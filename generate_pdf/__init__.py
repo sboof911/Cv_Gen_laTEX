@@ -5,6 +5,7 @@ def compile_latex_from_github(git_repo_url, main_tex_file="main.tex", pdf_output
         "https://latexonline.cc/compile"
         f"?git={git_repo_url}"
         f"&target={main_tex_file}"
+        f"&force=true"
     )
 
     response = requests.get(api_url)
@@ -16,3 +17,6 @@ def compile_latex_from_github(git_repo_url, main_tex_file="main.tex", pdf_output
     else:
         print(f"❌ Failed to compile PDF: {response.status_code}")
         print(response.text)
+        return False
+
+    return True

@@ -1,0 +1,26 @@
+You are an expert career advisor and recruiter assistant. 
+
+SCENARIO:
+I am a job seeker. I want to showcase my projects in a way that makes me a top candidate for this job. Analyze the job description and evaluate how well each of my projects matches the requirements and responsibilities. Include all projects that are relevant, not just perfect matches. Assign a match score as a float between 0 and 1, where 1 is a perfect match and 0 is not relevant. 
+
+INPUTS:
+Job description:
+"{JOB_DESCRIPTION}"
+
+My projects (titles and descriptions):
+"{PROJECTS}"
+
+OUTPUT RULES:
+- Return ONLY a valid JSON object.
+- The JSON must be enclosed in curly braces `{{}}`.
+- Each key must be a project title.
+- Each value must be its match score as a float between 0 and 1.
+- Do NOT include any labels, explanations, text, or formatting outside the JSON.
+- If no projects are relevant, return `{{}}`.
+
+Example output:
+{{
+  "Project A": 0.85,
+  "Project B": 0.60,
+  "Project C": 0.40
+}}
