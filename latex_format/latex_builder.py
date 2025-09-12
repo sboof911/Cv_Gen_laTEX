@@ -87,19 +87,25 @@ def build_tex(user_data: Dict, projects: List[Dict], profile_description: str) -
 
     # Projects
     for section in projects:
+        doc.append(NoEscape(r'\needspace{3\baselineskip}'))
         doc.append(NoEscape(r'\section*{' + safe(section.get('section','')) + '}'))
         for project in section.get('projects', []):
             title = safe(project.get('title',''))
             link = project.get('link','')
             descriptions = project.get('descriptions', [])
             linktool = safe(project.get('linkTool', None))
+            used_tools = project.get('used_tools', [])
             doc.append(NoEscape(rf'\needspace{{{len(descriptions)}\baselineskip}}'))
             if link:
                 linktool = r'{\raisebox{-0.2em}{\includegraphics[height=1.2em]{icons/github.png}}}' if linktool.lower() == 'github' else linktool
                 doc.append(NoEscape(rf'\noindent \textbf{{{title}}} - \href{{{link}}}{{{linktool}}}'))
             else:
                 doc.append(NoEscape(rf'\noindent \textbf{{{title}}}'))
-            doc.append(NoEscape(r'\begin{itemize}[leftmargin=2em,label={},parsep=0pt,topsep=1em]'))
+            doc.append(NoEscape(r'\begin{itemize}[leftmargin=2em,parsep=0pt,topsep=1em]'))
+            if len(used_tools) > 0:
+                tools_str = ", ".join(safe(t) for t in used_tools)
+                doc.append(NoEscape(rf'\item[] \textbf{{Tools:}} {tools_str}.'))
+
             for desc in descriptions:
                 doc.append(NoEscape(rf'\item {safe(desc)}'))
             doc.append(NoEscape(r'\end{itemize}'))

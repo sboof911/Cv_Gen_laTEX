@@ -29,9 +29,12 @@ def select_perfect_projects(job_description: str, projects: list) -> dict:
     return projects_titles
 
 def select_relevant_projects(job_description: str, data_folder: str):
+    print("Structuring job description...")
     job_description = structure_job_description(job_description)
+    print("Extracting user data and projects...")
     language = get_language_from_job_offer(job_description)
     user_data, projects, profile_description = prepare_cv_for_job(data_folder, language)
+    print("Selecting relevant projects...")
     projects_titles = select_perfect_projects(job_description, projects)
 
     return projects_titles, user_data, projects, profile_description
